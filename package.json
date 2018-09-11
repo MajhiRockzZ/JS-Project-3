@@ -1,0 +1,15 @@
+{
+  "name": "js-project-3",
+  "version": "1.0.0",
+  "description": "forkify project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack"
+  },
+  "author": "Sumesh Majhi",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.18.0"
+  },
+  "dependencies": {}
+}
