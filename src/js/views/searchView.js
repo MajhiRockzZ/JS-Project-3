@@ -1,3 +1,3 @@
-import { elements } from './views/base';
+import { elements } from './base';
 
 export const getInput = () => elements.searchInput.value;
