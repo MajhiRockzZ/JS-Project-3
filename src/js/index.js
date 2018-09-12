@@ -1,6 +1,1 @@
-// Global app controller
-
-import num from './test'
-const x = 23;
-console.log(`I imported ${num} from another module! Variable x is ${x}`);
-
+// eb056f7767ddd06d7589ba50be536978
