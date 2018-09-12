@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _tes
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nconsole.log('Imported module');\r\n/* harmony default export */ __webpack_exports__[\"default\"] = (23);\r\n\n\n//# sourceURL=webpack:///./src/js/test.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nconsole.log('Imported module');\r\n/* harmony default export */ __webpack_exports__[\"default\"] = (12345);\r\n\n\n//# sourceURL=webpack:///./src/js/test.js?");
 
 /***/ })
 
