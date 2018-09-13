@@ -12,7 +12,7 @@ export default class Search {
     const appKey = '6697b6714818a45958aedac392466716';
     try {
       // const res = await axios(`${proxy}https://www.food2fork.com/api/search?key=${key}&q=${this.query}`);
-      const res = await axios(`https://api.edamam.com/search?q=${this.query}&app_id=${appId}&app_key=${appKey}&to=40`);
+      const res = await axios(`https://api.edamam.com/search?q=${this.query}&app_id=${appId}&app_key=${appKey}&to=20`);
       this.result = [];
       this.recipeResult = res.data.hits.forEach(element => {
         let recipeData = element.recipe;
