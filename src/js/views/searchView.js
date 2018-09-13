@@ -1,4 +1,6 @@
-import { elements } from './base';
+import {
+  elements
+} from './base';
 
 export const getInput = () => elements.searchInput.value;
 
@@ -43,8 +45,20 @@ const renderRecipe = recipe => {
   elements.searchResList.insertAdjacentHTML('beforeend', markup);
 };
 
+const renderButtons = (page, numResults, resPerPage) => {
+  const pages = Math.ceil(numResults / resPerPage);
+
+  if (page === 1) {
+    // Only button to go to next page
+  } else if (page < pages) {
+    // Both buttons
+  } else if (page == pages) {
+    // Only button to go to prev page
+  }
+};
+
 export const renderResults = (recipes, page = 1, resPerPage = 10) => {
-  const start = (page -1) * resPerPage;
+  const start = (page - 1) * resPerPage;
   const end = page * resPerPage;
 
   recipes.slice(start, end).forEach(renderRecipe);
