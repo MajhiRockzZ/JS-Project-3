@@ -20,9 +20,9 @@ export default class Search {
       //   this.result.push(recipeData);
       //   // console.log(recipeData);
       // });
-      
+
       this.result = res.data.recipes;
-      console.log(this.result);
+      // console.log(this.result);
     } catch (error) {
       alert(error);
     }

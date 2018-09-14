@@ -18,6 +18,7 @@ export default class Recipe {
       // console.log(res);
     } catch (error) {
       console.log(error);
+      alert('Something went wrong :(');
     }
   }
 
