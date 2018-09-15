@@ -36,23 +36,6 @@ const limitRecipeTitle = (title, limit = 17) => {
   return title
 }
 
-// const renderRecipe = recipe => {
-//   const markup = `
-//   <li>
-//   <a class="results__link" href="#${recipe.uri}">
-//       <figure class="results__fig">
-//           <img src="${recipe.image}" alt="${recipe.label}">
-//       </figure>
-//       <div class="results__data">
-//           <h4 class="results__name">${limitRecipeTitle(recipe.label)}</h4>
-//           <p class="results__author">${recipe.source}</p>
-//       </div>
-//   </a>
-// </li>
-//   `;
-//   elements.searchResList.insertAdjacentHTML('beforeend', markup);
-// };
-
 const renderRecipe = recipe => {
   const markup = `
   <li>

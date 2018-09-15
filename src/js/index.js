@@ -64,7 +64,7 @@ elements.searchResPages.addEventListener('click', e => {
 const controlRecipe = async () => {
   // Get ID from url
   const id = window.location.hash.replace('#', '');
-  console.log(id);
+  // console.log(id);
 
   if (id) {
     // Prepare UI for changes
@@ -80,7 +80,7 @@ const controlRecipe = async () => {
     try {
       // Get recipe data and parse ingredient
       await state.recipe.getRecipe();
-      console.log(state.recipe.ingredients);
+      // console.log(state.recipe.ingredients);
       state.recipe.parseIngredients();
 
       // Calculate servings and time
@@ -111,5 +111,5 @@ elements.recipe.addEventListener('click', e => {
     state.recipe.updateServings('inc');
     recipeView.updateServingsIngredients(state.recipe);
   }
-  console.log(state.recipe);
+  // console.log(state.recipe);
 })
