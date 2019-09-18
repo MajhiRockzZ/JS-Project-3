@@ -18,6 +18,8 @@ Build status of continus integration.
  
 ## Screenshots
 
+![](https://media.giphy.com/media/KZRgCpyNk1L3WI5RFf/giphy.gif)
+
 ## Features
 
 - Search over 1,000,000 recipes.
