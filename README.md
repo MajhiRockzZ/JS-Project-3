@@ -1,17 +1,66 @@
-# 🥣  forkify 🍴 
+# 🥣  forkify 🍴
 
+A recipe finding app using [Food2Fork](https://www.food2fork.com/) api.
+## Motivation
 
-[![Website](https://img.shields.io/badge/site-up%20and%20running-lightgrey.svg)](https://majhirockzz.github.io/JS-Project-3/)
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/MajhiRockzZ/JS-Project-3/blob/master/LICENSE)
-[![GitHub repo size in bytes](https://img.shields.io/badge/repo%20size-2.33%20MB-blue.svg)](https://github.com/MajhiRockzZ/JS-Project-3/)
-[![Github commit merge status](https://img.shields.io/github/commit-status/badges/shields/master/5d4ab86b1b5ddfb3c4a70a70bd19932c52603b8c.svg)](https://github.com/MajhiRockzZ/JS-Project-3/)
+The motivation behind the creation and maintenance of the project was to learn concepts relatd to async fetch, webpack, bable and other build tools using pure javascript.
 
-### Features :
+## Build status
 
-* Search over 1,000,000 recipes. 🥄
-* Powered by Food2Fork. 🥄  
-* Display ingredients. 🥄
-* Allow to choose servings.🥄 
-* Display recipe images. 🥄
-* Ingredients can be added/remove to/from shopping list. 🥄
-* Recipe can be added/remove to/from like list. 🥄
+Build status of continus integration.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/faed744a-d388-41c7-930d-5c5af9a9937e/deploy-status)](https://app.netlify.com/sites/majhirockzz-forkify/deploys)
+
+## Code style
+If you're using any code style like xo, standard etc. That will help others while contributing to your project. Ex. -
+
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+ 
+## Screenshots
+Include logo/demo screenshot etc.
+
+## Tech/framework used
+Ex. -
+
+<b>Built with</b>
+- [Electron](https://electron.atom.io)
+
+## Features
+
+- Search over 1,000,000 recipes.
+- Powered by Food2Fork.
+- Display ingredients.
+- Allow to choose servings.
+- Display recipe images.
+- Ingredients can be added/remove to/from shopping list.
+- Recipe can be added/remove to/from like list.
+
+## Code Example
+Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+
+## Installation
+Provide step by step series of examples and explanations about how to get a development env running.
+
+## API Reference
+
+Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+
+## Tests
+Describe and show how to run the tests with code examples.
+
+## How to use?
+If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
+
+## Contribute
+
+Let people know how they can contribute into your project. A [contributing guideline](https://github.com/zulip/zulip-electron/blob/master/CONTRIBUTING.md) will be a big plus.
+
+## Credits
+Give proper credits. This could be a link to any repo which inspired you to build this project, any blogposts or links to people who contrbuted in this project. 
+
+#### Anything else that seems useful
+
+## License
+A short snippet describing the license (MIT, Apache etc)
+
+MIT © [Yourname]()
