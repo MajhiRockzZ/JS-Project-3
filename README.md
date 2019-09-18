@@ -1,6 +1,7 @@
-# 🥣  forkify 🍴
+# 🥣  forkify
 
-A recipe finding app using [Food2Fork](https://www.food2fork.com/) api.
+A recipe finding app using [Food2Fork](https://www.food2fork.com/) api. This web application can be used as a guide to cook your favorite dish. It also has a feature to add recipe as your favorite and can also tell the number and amount of ingredients needed to build a specific dish according to number of people.
+
 ## Motivation
 
 The motivation behind the creation and maintenance of the project was to learn concepts relatd to async fetch, webpack, bable and other build tools using pure javascript.
@@ -9,21 +10,13 @@ The motivation behind the creation and maintenance of the project was to learn c
 
 Build status of continus integration.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/faed744a-d388-41c7-930d-5c5af9a9937e/deploy-status)](https://app.netlify.com/sites/majhirockzz-forkify/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/faed744a-d388-41c7-930d-5c5af9a9937e/deploy-status)](https://app.netlify.com/sites/majhirockzz-forkify/deploys) [![Build Status](https://travis-ci.com/MajhiRockzZ/forkify.svg?branch=master)](https://travis-ci.com/MajhiRockzZ/forkify)
 
 ## Code style
-If you're using any code style like xo, standard etc. That will help others while contributing to your project. Ex. -
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
  
 ## Screenshots
-Include logo/demo screenshot etc.
-
-## Tech/framework used
-Ex. -
-
-<b>Built with</b>
-- [Electron](https://electron.atom.io)
 
 ## Features
 
@@ -35,32 +28,35 @@ Ex. -
 - Ingredients can be added/remove to/from shopping list.
 - Recipe can be added/remove to/from like list.
 
-## Code Example
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
 
 ## Installation
-Provide step by step series of examples and explanations about how to get a development env running.
+
+```bash
+git clone https://github.com/MajhiRockzZ/forkify.git
+
+npm install
+
+npm start
+```
 
 ## API Reference
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
-
-## Tests
-Describe and show how to run the tests with code examples.
+[Food2Fork](https://www.food2fork.com/) API gives you access to their ever expanding recipe database, powerful ingredient search function, and social-media based ranking algorithm.
 
 ## How to use?
-If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
 
-## Contribute
-
-Let people know how they can contribute into your project. A [contributing guideline](https://github.com/zulip/zulip-electron/blob/master/CONTRIBUTING.md) will be a big plus.
+[Click here](https://majhirockzz-forkify.netlify.com/)
 
 ## Credits
-Give proper credits. This could be a link to any repo which inspired you to build this project, any blogposts or links to people who contrbuted in this project. 
 
-#### Anything else that seems useful
+[Sumesh Majhi](https://github.com/MajhiRockzZ) 
+
+[![Twitter Follow](https://img.shields.io/twitter/follow/MajhiRockzZ?style=social)](https://twitter.com/MajhiRockzZ)
 
 ## License
-A short snippet describing the license (MIT, Apache etc)
 
-MIT © [Yourname]()
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit-175x39.png?v=103)](https://opensource.org/licenses/mit-license.php) [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source-200x33.png?v=103)](https://github.com/ellerbrock/open-source-badge/)  
+
+MIT © [Sumesh Majhi](https://github.com/MajhiRockzZ/forkify/blob/master/LICENSE)
+
+[![forthebadge](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
